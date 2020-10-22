@@ -1,6 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import BlogPosts from './BlogPosts'
 
 const App = () => (
-  <h1>Your react app!</h1>
+  <div>
+    <Header />
+    <BlogPosts />
+  </div >
 )
 export default App
